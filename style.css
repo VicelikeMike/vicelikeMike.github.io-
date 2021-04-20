@@ -1,0 +1,212 @@
+/*sitio basico*/
+/*todos los derechos reservados ©2021*/
+/*sin librerias para reposteriaconamor.000webhostapp.com*/
+/*creado el 19/04/2021*/
+*{
+	margin: 0;
+}
+
+body{
+	background: url('cupcakes-690040.jpg');
+}
+
+.top{
+	width: 100%;
+	height: 50px;
+	background: repeating-linear-gradient(-45deg, #F727BE, #F727BE 5px, pink 5px, pink 10px);
+	box-shadow: 0 0 10px #060606;
+}
+
+.menu_options{
+	background: none;
+	border: 0;
+	outline: none;
+	color: white;
+	font-family: Microsoft JhengHei UI;
+	font-weight: bold;
+	margin-left: 65%;
+	margin-top: 15px;
+	position: absolute;
+}
+
+.menu_options1{
+	background: none;
+	border: 0;
+	outline: none;
+	color: white;
+	font-family: Microsoft JhengHei UI;
+	font-weight: bold;
+	margin-left: 77%;
+	margin-top: 15px;
+	position: absolute;
+}
+
+.menu_options2{
+	background: none;
+	border: 0;
+	outline: none;
+	color: white;
+	font-family: Microsoft JhengHei UI;
+	font-weight: bold;
+	margin-left: 85%;
+	margin-top: 15px;
+	position: absolute;
+}
+
+.menu_options:hover{
+	color: grey;
+}
+
+.menu_options1:hover{
+	color: grey;
+}
+
+.menu_options2:hover{
+	color: grey;
+}
+
+.logo{
+	width: 250px;
+	height: 200px;
+	margin-top: 30px;
+}
+
+.pre{
+	width: 90%;
+	height: 50px;
+	opacity: 0.5;
+	margin-top: 50px;
+	background: #232323;
+}
+
+.slogan{
+	color: white;
+	font-family: Microsoft JhengHei UI;
+	font-weight: 30;
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 31%;
+}
+
+.content_menu{
+	background: grey;
+	width: 350px;
+	height: 300px;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 300px;
+	border-radius: 5px;
+	box-shadow: 0 10px 10px #060606;
+}
+
+.title{
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 20px;
+	color: white;
+	font-family: Brush Script MT;
+	font-weight: 10;
+
+}
+
+p{
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 70px;
+	color: #C7C7C7;
+}
+
+.p1{
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 90px;
+	color: #C7C7C7;
+}
+
+.get_img{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	background: url('https://cdn.pixabay.com/photo/2017/02/07/09/02/wood-2045380_960_720.jpg');
+	margin-top: 130px;
+	margin-left: 150px;
+	border-radius: 5px;
+	box-shadow: 0 10px 10px #060606;
+}
+
+.menus{
+	width: 280px;
+	border-radius: 10px;
+	position: absolute;
+	margin-top: 3px;
+	margin-left: -140px;
+	height: 290px;
+}
+
+.menus:hover{
+	width: 500px;
+	height: 600px;
+	position: absolute;
+	margin-left: 50%;
+	margin-top: -110%;
+}
+
+.space{
+	width: 100%;
+	height: 70px;
+	margin-top: 800px;
+}
+
+.content_menu1{
+	background: grey;
+	width: 350px;
+	height: 300px;
+	position: absolute;
+	margin-left: 72%;
+	margin-top: -170px;
+	border-radius: 5px;
+	box-shadow: 0 10px 10px #060606;
+}
+
+.get_img1{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	background: url('https://cdn.pixabay.com/photo/2017/02/07/09/02/wood-2045380_960_720.jpg');
+	margin-top: 130px;
+	margin-left: -150px;
+	border-radius: 5px;
+	box-shadow: 0 10px 10px #060606;
+}
+
+.map{
+	width: 290px;
+	height: 290px;
+	border-radius: 10px;
+	position: absolute;
+	margin-top: 2px;
+	margin-left: -145px;
+}
+
+.title_about{
+	font-family: Proxima Nova;
+	margin-top: 60px;
+	margin-left: 20px;
+	font-size: 40px;
+}
+
+
+@media only screen and (max-width: 200px) {
+	.menu_options{
+		margin-left: -20%;
+		}
+}
+
+
+.p2{
+	margin-top: 10px; color: black; font-family: Arial; font-weight: 10;
+}
+
+.p3{
+	margin-top: 30px; color: black; font-family: Arial; font-weight: 10;
+}
